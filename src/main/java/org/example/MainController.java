@@ -9,6 +9,20 @@ public class MainController {
     private Label seasonsLabel;
 
     @FXML
+    private Label creditsLabel;
+
+    @FXML
+    private Label dateOfBirthLabel;
+
+    @FXML
+    private Label nameLabel;
+
+    @FXML
+    void handleLoadButtonClicked() {
+
+    }
+
+    @FXML
     void handleClick() {
         System.out.println("Hello world!!!");
         if (seasonsLabel.getText().equals("Summer"))
